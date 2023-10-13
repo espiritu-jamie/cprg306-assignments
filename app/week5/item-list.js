@@ -17,14 +17,14 @@ export default function ItemList() {
 
   const handleSort = (event) => {setSortBy(event.target.value)};
 
-  const groupedItems = itemsData.reduce((category, item) => {
-    return (
-      <ul>
-        <li className="capitalize font-semibold">{item.category}</li>
-        <li className="text-sm">{item.name}</li>
-      </ul>
-    )
-  }, 0);
+  // const groupedItems = itemsData.reduce((category, item) => {
+  //   return (
+  //     <ul>
+  //       <li className="capitalize font-semibold">{item.category}</li>
+  //       <li className="text-sm">{item.name}</li>
+  //     </ul>
+  //   )
+  // }, 0);
 
 
   return (
